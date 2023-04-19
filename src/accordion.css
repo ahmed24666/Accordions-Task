@@ -1,0 +1,50 @@
+.accordion {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  gap: 20px;
+}
+
+.accordion-item {
+  border: 1px solid #ccc;
+  border-radius: 10px 10px 0 0;
+}
+
+.accordion-header {
+    width: 100%;
+  background-color: #333;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px ;
+  font-size: 20px;
+  border-radius: 10px 10px 0 0;
+  color: white;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.accordion-panel {
+  display: none;
+  padding: 10px 30px;
+
+}
+.single{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.accordion-panel.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
